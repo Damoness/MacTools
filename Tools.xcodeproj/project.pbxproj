@@ -14,6 +14,7 @@
 		9C4DC1391C86D344005F3E9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C4DC1371C86D344005F3E9D /* Main.storyboard */; };
 		9C4DC1441C86D344005F3E9D /* ToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4DC1431C86D344005F3E9D /* ToolsTests.m */; };
 		9C4DC14F1C86D344005F3E9D /* ToolsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4DC14E1C86D344005F3E9D /* ToolsUITests.m */; };
+		9C4DC1621C86E3FD005F3E9D /* Anasis8583Pack.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4DC1611C86E3FD005F3E9D /* Anasis8583Pack.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		9C4DC14A1C86D344005F3E9D /* ToolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C4DC14E1C86D344005F3E9D /* ToolsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToolsUITests.m; sourceTree = "<group>"; };
 		9C4DC1501C86D344005F3E9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C4DC1601C86E3FD005F3E9D /* Anasis8583Pack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Anasis8583Pack.h; sourceTree = "<group>"; };
+		9C4DC1611C86E3FD005F3E9D /* Anasis8583Pack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Anasis8583Pack.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +102,7 @@
 		9C4DC12B1C86D344005F3E9D /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				9C4DC15F1C86E3FD005F3E9D /* 8583 */,
 				9C4DC12C1C86D344005F3E9D /* AppDelegate.h */,
 				9C4DC12D1C86D344005F3E9D /* AppDelegate.m */,
 				9C4DC1321C86D344005F3E9D /* ViewController.h */,
@@ -135,6 +139,15 @@
 				9C4DC1501C86D344005F3E9D /* Info.plist */,
 			);
 			path = ToolsUITests;
+			sourceTree = "<group>";
+		};
+		9C4DC15F1C86E3FD005F3E9D /* 8583 */ = {
+			isa = PBXGroup;
+			children = (
+				9C4DC1601C86E3FD005F3E9D /* Anasis8583Pack.h */,
+				9C4DC1611C86E3FD005F3E9D /* Anasis8583Pack.m */,
+			);
+			path = 8583;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,6 +281,7 @@
 			files = (
 				9C4DC1341C86D344005F3E9D /* ViewController.m in Sources */,
 				9C4DC1311C86D344005F3E9D /* main.m in Sources */,
+				9C4DC1621C86E3FD005F3E9D /* Anasis8583Pack.m in Sources */,
 				9C4DC12E1C86D344005F3E9D /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
